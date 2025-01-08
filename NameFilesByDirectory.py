@@ -1,12 +1,13 @@
 import os
 
-path = "training"
+# Set the directory (only change the "FolderWithTheNamedFolders" !!)
+mainFolder = "FolderWithTheNamedFolders"
+
 directories = [d for d in os.listdir(path) if os.path.isdir(os.path.join(path, d))]
 names = directories
 
 for name in names:
-    # Set the directory
-    directory = f"training/{name}"
+    directory = f"{mainFolder}/{name}"
 
     # Give the name for the files
     base_name = name
