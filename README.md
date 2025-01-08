@@ -57,11 +57,12 @@ This script renames all files in a specified directory by giving them the direct
 ### Usage
 1. Take the file *NameFilesByDirectory.py* to your main folder of the project.
 2. Take the files you want to rename into the named subfolder (The files will have the name of this folder in them).
-3. Navigate to the project directory:
+3. Change the variable "mainFolder" to fit your use. This is the Main Folder above the folders with the named folders.
+4. Navigate to the project directory:
 ```bash
 cd <project-directory>
 ```
-4. Run the script
+5. Run the script
 ```bash
 python NameFilesByDirectory.py
 ```
@@ -89,4 +90,7 @@ training/Kallio/
     Kallio2.png
     Kallio3.txt
 ```
+### Customization
+- Base Name: You can change the folder names to use a different prefix for the renamed files. No need to edit the code here.
+- Directory Path: Update the directory variable "mainFolder" to the path of your target folder. This is the Main Folder above the folders with the named folders.
 </details>
