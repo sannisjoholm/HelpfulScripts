@@ -1,7 +1,7 @@
 # HelpfulScripts
- A bunch of helpful py scripts for increasing the efficiency of your work.
+A bunch of helpful py scripts for increasing the efficiency of your work.
 
-
+Open to see more info:
 <details>
 <summary>File Renaming Script</summary>
 
