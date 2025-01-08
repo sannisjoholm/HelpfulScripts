@@ -3,7 +3,10 @@
 
 
 <details>
-<summary>## File Renaming Script *namefiles.py*</summary>
+<summary>File Renaming Script</summary>
+
+## File Renaming Script *namefiles.py*
+
 ### Overview
 This script renames all files in a specified directory by giving them a consistent base name followed by a sequential number. The filenames are formatted with an underscore (_) and leading zeros (e.g., Ahtisaari1.jpg, Ahtisaari2.png). It also preserves the original file extensions and skips files without extensions.
 ### Prerequisites
