@@ -35,9 +35,9 @@ training/Ahtisaari/
 #### After Running the Script
 ```markdown
 training/Ahtisaari/
-    Ahtisaari_01.jpg
-    Ahtisaari_02.png
-    Ahtisaari_03.txt
+    Ahtisaari1.jpg
+    Ahtisaari2.png
+    Ahtisaari3.txt
 ```
 ### Customization
 - Base Name: You can change the base_name variable in the script to use a different prefix for the renamed files.
